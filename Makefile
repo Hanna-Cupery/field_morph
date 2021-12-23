@@ -1,4 +1,4 @@
-
+.DEFAULT_GOAL := and.analizer.hfst
 # generate analizer and generator
 and.analizer.hfst: and.generator.hfst
 	hfst-invert $< -o $@
